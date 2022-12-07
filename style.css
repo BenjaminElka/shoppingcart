@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+  background-color: lightgrey;
+}
+
+.main-header{
+  
+  background-image: url('images/rick.webp');
+  background-image: 50px ;
+  background-blend-mode: multiply  ;
+  padding-bottom: 30px;
+  padding: 80px;
+  text-align: center;
+  
+  
+ 
+}
+.title-header{
+  color: brown;
+  text-align: bottom;
+  
+
+}
+
+.shop {
+  display: flex;
+  gap: 24px;
+  padding: 0;
+  justify-content: center;
+}
+
+.shopping-items-wrapper > li {
+  flex: 1;
+}
+
+.main-footer{
+  background-color: aqua;
+  color: white;
+  padding: .25em 0;
+}
+.main-footer{
+  display: flex;
+  
+}
+h1{
+  color: white;
+  
+  text-align: center;
+}
